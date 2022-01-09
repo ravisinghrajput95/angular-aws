@@ -19,7 +19,7 @@ ng serve
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::angular-aws-simple-app-2022/*"
+            "Resource": "arn:aws:s3:::bucket-name/*"
         }
     ]
 }
